@@ -5583,3 +5583,21 @@ section {
   width: 100%;
   float: left;
 }
+
+/* line 3, ../sass/_404.scss */
+.fourohfour {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+/* line 7, ../sass/_404.scss */
+.desc {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
