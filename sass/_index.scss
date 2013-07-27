@@ -1,0 +1,28 @@
+// Custom styles here
+
+// Navbar
+.nav {
+	height: 3.5em;
+	background-color: $primary-color;
+}
+
+//Welcome section
+
+.hi {
+	@include grid-column(12);
+}
+
+.intro {
+	@include grid-column(12);
+}
+
+// Body styles
+
+section {
+	padding: 2.5em 0em 0em 0em;
+}
+
+.title { @include grid-column(12); }
+
+.copy { @include grid-column(12); }
+
