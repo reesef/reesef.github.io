@@ -1,5 +1,5 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
+/* This site was created by filipreese using a handful of awesome technologis including Zurb's Foundation and Compass.  */
+/* filipreese.com */
 /* humanstxt.org */
 
 /* SITE */
