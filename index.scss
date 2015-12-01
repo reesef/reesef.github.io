@@ -1,0 +1,13 @@
+@import "normalize.scss";
+
+// Custom styles
+
+.body {
+  color: 000;
+  background-color: #fff;
+}
+
+.header, .about, .work, .education, .contact {
+  margin: auto;
+  width: 600px;
+}
