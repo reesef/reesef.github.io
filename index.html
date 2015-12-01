@@ -7,9 +7,11 @@
 </head>
 <body>
   <div class="header">
-    <img src="mugshot.jpg" title="personal-portrait" alt="personal-portrait" class="mugshot" width="150px">
-    <h1>Filip Reese</h1>
-    <h4>MBA candidate at Melbourne Business School</h4>
+    <img src="mugshot.jpg" title="personal-portrait" alt="personal-portrait" class="header--image" width="150px">
+    <div class="header--text">
+      <h1 class="name">Filip Reese</h1>
+      <h4 class="tagline">MBA candidate at Melbourne Business School</h4>
+    </div>
   </div>
   <div class="about">
     <h2>About</h2>
@@ -34,16 +36,14 @@
     <h2>Contact</h2>
       <form action="http://formspree.io/reesef@gmail.com" method="POST">
         <!-- <input type="hidden" name="_next" value="filipreese.com/thanks.html" /> -->
-        <label>Name
-          <input type="text" name="name" placeholder="Your name">
-        </label>
-        <label>Email
-          <input type="text" name="_replyto" placeholder="Your email address">
-        </label>
-        <label>Message
-          <textarea name="message" rows="7"></textarea>
-        </label>
-        <input type="submit" value="Send Message" class="button contact-button radius">
+        <label>Name</label>
+        <input type="text" class="text-input" name="name" placeholder="Your name">
+        <label>Email</label>
+        <input type="text" class="text-input" name="_replyto" placeholder="Your email address">
+        <label>Message</label>
+        <textarea name="message" class="text-input--tall" rows="7"></textarea>
+
+        <input type="submit" value="Send Message" class="button">
       </form>
   </div>
 </body>

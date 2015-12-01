@@ -17,11 +17,14 @@ $primary-color: #07579E;
 html {
   color: $text-color;
   background-color: $background-color;
+  border-top: 3px solid $primary-color;
 }
 
 .header, .about, .work, .education, .contact {
   margin: auto;
+  display: block;
   max-width: 600px;
+  min-width: 300px;
 }
 
 @media only screen and (max-width: 610px) {
@@ -46,6 +49,42 @@ input, textarea {
 
 // header
 
-.mugshot {
+.header {
+  padding-top: 30px;
+}
+
+.header--image {
+  display: inline-block;
   border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header--text {
+  display: inline-block;
+  float:left;
+}
+
+// contact
+
+.text-input {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  height: 30px;
+  width: 70%;
+}
+
+.text-input--tall {
+  @extend .text-input;
+  height: 150px;
+}
+
+.button {
+  color: $background-color;
+  background-color: $primary-color;
+  border-radius: 3px;
+  border: 1px solid $primary-color;
+  height: 2.2em;
+  width: 30%;
+
 }

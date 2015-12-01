@@ -356,11 +356,14 @@ th {
 
 html {
   color: #00112C;
-  background-color: #FAFAFA; }
+  background-color: #FAFAFA;
+  border-top: 3px solid #07579E; }
 
 .header, .about, .work, .education, .contact {
   margin: auto;
-  max-width: 600px; }
+  display: block;
+  max-width: 600px;
+  min-width: 300px; }
 
 @media only screen and (max-width: 610px) {
   body {
@@ -376,7 +379,34 @@ p, a, label, input, li {
 input, textarea {
   display: block; }
 
-.mugshot {
-  border-radius: 50%; }
+.header {
+  padding-top: 30px; }
+
+.header--image {
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.header--text {
+  display: inline-block;
+  float: left; }
+
+.text-input, .text-input--tall {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  height: 30px;
+  width: 70%; }
+
+.text-input--tall {
+  height: 150px; }
+
+.button {
+  color: #FAFAFA;
+  background-color: #07579E;
+  border-radius: 3px;
+  border: 1px solid #07579E;
+  height: 2.2em;
+  width: 30%; }
 
 /*# sourceMappingURL=index.css.map */
