@@ -1,13 +1,37 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300,400italic|Merriweather:400,700,400italic);
 @import "normalize.scss";
 
-// Custom styles
+// Variables
 
-.body {
-  color: 000;
-  background-color: #fff;
+$text-color: #00112C;
+$background-color: #FAFAFA;
+$primary-color: #07579E;
+
+// Basic styles
+
+$text-color: #00112C;
+$background-color: #FAFAFA;
+$primary-color: #07579E;
+
+html {
+  color: $text-color;
+  background-color: $background-color;
 }
 
 .header, .about, .work, .education, .contact {
   margin: auto;
-  width: 600px;
+  max-width: 600px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: lato;
+}
+
+p, a, label, input, li {
+  font-family: merriweather;
+}
+
+input, textarea {
+  display: block;
 }
