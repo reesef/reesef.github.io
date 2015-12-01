@@ -362,6 +362,11 @@ html {
   margin: auto;
   max-width: 600px; }
 
+@media only screen and (max-width: 610px) {
+  body {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px; } }
 h1, h2, h3, h4, h5, h6 {
   font-family: lato; }
 
