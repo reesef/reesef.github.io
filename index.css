@@ -359,7 +359,7 @@ html {
   background-color: #FAFAFA;
   border-top: 3px solid #07579E; }
 
-.header, .about, .work, .education, .contact {
+.header, .about, .work, .education, .contact, .thanks {
   margin: auto;
   display: block;
   max-width: 600px;
