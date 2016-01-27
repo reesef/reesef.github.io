@@ -359,7 +359,7 @@ html {
   background-color: #FAFAFA;
   border-top: 3px solid #07579E; }
 
-.header, .about, .work, .education, .contact, .thanks {
+.header, .about, .work, .education, .contact, .thanks, .footer {
   margin: auto;
   display: block;
   max-width: 600px;
@@ -408,6 +408,23 @@ input, textarea {
   border: 1px solid #07579E;
   height: 2.2em;
   width: 30%;
-  margin-bottom: 60px; }
+  margin-bottom: 30px; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #07579E;
+  margin: 1em 0;
+  padding: 0; }
+
+.footer-list {
+  padding: 0; }
+
+.footer-item {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  list-style-type: none; }
 
 /*# sourceMappingURL=index.css.map */
