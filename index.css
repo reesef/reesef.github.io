@@ -407,6 +407,7 @@ input, textarea {
   border-radius: 3px;
   border: 1px solid #07579E;
   height: 2.2em;
-  width: 30%; }
+  width: 30%;
+  margin-bottom: 60px; }
 
 /*# sourceMappingURL=index.css.map */
