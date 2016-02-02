@@ -11,10 +11,6 @@ $light-grey: #7B7F87;
 
 // Basic styles
 
-$text-color: #00112C;
-$background-color: #FAFAFA;
-$primary-color: #07579E;
-
 html {
   color: $text-color;
   background-color: $background-color;
@@ -40,76 +36,24 @@ h1, h2, h3, h4, h5, h6 {
   font-family: lato;
 }
 
-p, a, label, input, li {
+p, label, input, li {
   font-family: merriweather;
+}
+
+a {
+  font-family: merriweather;
+  text-decoration: none;
+  color: $primary-color;
+  &:hover {
+    color:$light-grey;
+  }
 }
 
 input, textarea {
   display: block;
 }
 
-// header
-
-.header {
-  padding-top: 30px;
-}
-
-.header--image {
-  display: inline-block;
-  border-radius: 50%;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.header--text {
-  display: inline-block;
-  float:left;
-}
-
-// contact
-
-.text-input {
-  margin-top: 7px;
-  margin-bottom: 7px;
-  height: 30px;
-  width: 70%;
-}
-
-.text-input--tall {
-  @extend .text-input;
-  height: 150px;
-}
-
-.button {
-  color: $background-color;
-  background-color: $primary-color;
-  border-radius: 3px;
-  border: 1px solid $primary-color;
-  height: 2.2em;
-  width: 40%;
-  margin-bottom: 45px;
-}
-
-// footer
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid $light-grey;
-  margin: 1em 0;
-  padding: 0;
-}
-
-.footer-list {
-  padding-left: 0px;
-}
-
-.footer-item {
-  color: $light-grey;
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 10px;
-  list-style-type: none;
-  vertical-align: middle;
-}
+@import "header.scss";
+@import "projects.scss";
+@import "contact.scss";
+@import "footer.scss";

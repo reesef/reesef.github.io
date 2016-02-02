@@ -1,0 +1,23 @@
+// footer
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $light-grey;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.footer-list {
+  padding-left: 0px;
+}
+
+.footer-item {
+  color: $light-grey;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+  vertical-align: middle;
+}

@@ -1,0 +1,23 @@
+// contact
+
+.text-input {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  height: 30px;
+  width: 70%;
+}
+
+.text-input--tall {
+  @extend .text-input;
+  height: 150px;
+}
+
+.button {
+  color: $background-color;
+  background-color: $primary-color;
+  border-radius: 3px;
+  border: 1px solid $primary-color;
+  height: 2.2em;
+  width: 40%;
+  margin-bottom: 45px;
+}

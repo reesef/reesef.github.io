@@ -373,8 +373,15 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: lato; }
 
-p, a, label, input, li {
+p, label, input, li {
   font-family: merriweather; }
+
+a {
+  font-family: merriweather;
+  text-decoration: none;
+  color: #07579E; }
+  a:hover {
+    color: #7B7F87; }
 
 input, textarea {
   display: block; }
