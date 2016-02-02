@@ -3,6 +3,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.runtime.min.js"></script> -->
   <title>Filip Reese | Home</title>
 </head>
 <body>
@@ -16,12 +19,23 @@
   <div class="about">
     <h2>About</h2>
     <p>Hi, I'm Filip. I grew up in California and live in Melbourne, Australia. I'm currently studying at Melbourne Business School.</p>
-      <p>I spent the last four years working at 99designs in San Francisco and Melbourne as a Product Manager, where I helped build and grow the world's largest online marketplace for graphic design work.</p>
-      <p>I have a passion for product development, an astute sense of design, and am especially passionate about building products that empower individuals to improve their lives.</p>
-      <p>I also like to surf, skateboard, and go on adventures in the outdoors.</p>
-      <p>If you'd like to learn more about me or are interested in working together, please <a href="/resume.pdf" download>download my resume</a> or get in contact with me below.</p>
+    <p>I spent the last four years working at 99designs in San Francisco and Melbourne as a Product Manager, where I helped build and grow the world's largest online marketplace for graphic design work.</p>
+    <p>I have a passion for product development, an astute sense of design, and am especially passionate about building products that empower individuals to improve their lives.</p>
+    <p>I also like to surf, skateboard, and go on adventures in the outdoors.</p>
+    <p>If you'd like to learn more about me or are interested in working together, please <a href="/resume.pdf" download>download my resume</a> or get in contact with me below.</p>
   </div>
-
+  <div id="projects" class="projects">
+    <script id="projects-template" type="text/x-handlebars-template">
+        <h2>Projects</h2>
+        {{#projects}}
+          <div>
+            <p>{{image}}</p>
+            <p>{{name}}</p>
+            <p>{{description}}</p>
+          </div>
+        {{/projects}}
+    </script>
+  </div>
   <div class="contact">
     <h2>Contact</h2>
       <form action="http://formspree.io/reesef@gmail.com" method="POST">
@@ -45,6 +59,7 @@
       <li class="footer-item"><a href="https://instagram.com/filipreese"><img src="instagram19.png" width="30"></a></li>
   </div>
 </body>
+<script src="projects.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
