@@ -28,9 +28,9 @@
     <script id="projects-template" type="text/x-handlebars-template">
         <h2>Projects</h2>
         {{#projects}}
-          <div>
-            <p>{{image}}</p>
-            <p>{{name}}</p>
+          <div class="project-item">
+            <image class="project-image" src="{{image}}" >
+            <h4>{{name}}</h4>
             <p>{{description}}</p>
           </div>
         {{/projects}}

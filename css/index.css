@@ -399,6 +399,17 @@ input, textarea {
   display: inline-block;
   float: left; }
 
+.project-item {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 0px 1px 1px #7B7F87; }
+
+.project-image {
+  width: 100%; }
+
 .text-input, .text-input--tall {
   margin-top: 7px;
   margin-bottom: 7px;
