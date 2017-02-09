@@ -40,8 +40,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: lato;
 }
 
-p, a, label, input, li {
+p, label, input, li {
   font-family: merriweather;
+}
+
+a {
+ font-family: merriweather;
+ color: $primary-color;
+ text-decoration: none;
 }
 
 input, textarea {
